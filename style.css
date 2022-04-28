@@ -1,0 +1,62 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.box {
+    display: grid;
+    margin-top: 16rem;
+    justify-content: center;
+    grid-template-columns: repeat(5, 5rem);
+    grid-template-rows: repeat(5, 5rem);
+}
+.box>button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: 1px solid rgb(238, 96, 96);
+    background-color: rgb(255, 239, 100);
+    transition-property: all;
+    /* transition-duration: 1s; */
+}
+
+
+/* .box>button:hover {
+    background-color: rgb(255, 51, 0);
+    z-index: 10;
+    width: 15rem;
+    height: 15rem;
+    transform: translate(-5rem, -5rem);
+} */
+.upper-left:hover {
+    background-color: rgb(255, 51, 0);
+    z-index: 10;
+    width: 8rem;
+    height: 8rem;
+    /* transform: translate(-0rem, -0rem); */
+}
+
+.upper:hover {
+    background-color: rgb(255, 51, 0);
+    z-index: 10;
+    width: 11rem;
+    height: 8rem;
+    transform: translate(-3rem);
+}
+
+.upper-right:hover {
+    background-color: rgb(255, 51, 0);
+    z-index: 10;
+    width: 8rem;
+    height: 8rem;
+    transform: translate(-3rem);
+}
+
+.middle:hover {
+    background-color: rgb(255, 51, 0);
+    z-index: 10;
+    width: 15rem;
+    height: 15rem;
+    transform: translate(-5rem, -5rem);
+}
+
+
+
